@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
         webview.getSettings().setJavaScriptEnabled(true);
         webview.setBackgroundColor(Color.TRANSPARENT);
         webview.loadUrl("file:///android_asset/canvas2.html");
-//        webview.loadUrl("http://www.liuschen.com/");
 
     }
 
