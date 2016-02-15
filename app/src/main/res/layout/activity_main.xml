@@ -7,21 +7,26 @@
     tools:context=".MainActivity">
 
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:text="背景控件 背景控件 背景控件 背景控件 背景控件 背景控件 背景控件 背景控件 背景控件
+         背景控件 背景控件 背景控件 背景控件 背景控件 背景控件 背景控件 "/>
 
-
-    <RelativeLayout
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+    <!--<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_centerInParent="true"
-        android:background="#ff0000">
+        android:background="#637bbd">
 
 
-    </RelativeLayout>
+    </RelativeLayout>-->
 
     <WebView
         android:id="@+id/wv"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
         android:layout_centerInParent="true">
 
     </WebView>
